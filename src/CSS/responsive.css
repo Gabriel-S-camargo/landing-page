@@ -1,0 +1,55 @@
+@media (max-width:768px){
+    .main{
+        display: flex;
+        flex-direction: column;
+
+    }
+
+    .showoff{
+        height: 50vh;
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        gap: 4rem;
+    } 
+
+    .text-box{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 1.5rem;
+        text-align: center;
+        height: 40vh;
+        width: 80%
+    } 
+
+    .page img{
+        width: 90%;
+        height: 40vh;
+    }
+} 
+
+
+@media(max-width:425px){
+    .main{
+        background: url(../images/bg-mobile.svg) center no-repeat;
+    } 
+    .page img{
+        width: 100%;
+        height: 30vh;
+    } 
+
+    .text-box{
+        width: 80%;
+    } 
+
+    .logo img{
+        width: 80%;
+    }
+
+    .logo{
+        width: 55%;
+        height: 5vh;
+    }
+}
